@@ -1,0 +1,57 @@
+nav {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(73, 3, 119);
+}
+
+#logo {
+    clip-path: inset(25px 10px 25px 0px);
+    width: 150px;
+    margin-right: 10px;
+}
+
+#AP {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#AP>h3 {
+    color: white;
+    font-size:larger;
+}
+
+#right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:right;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+#social>a {
+    color: white;
+    font-size:larger ;
+    margin: 5px;
+}
+
+#login{
+    margin: 10px;
+    margin-left: 10px;
+    border: solid 2px rgb(168, 69, 168);
+}
+
+#login>a{
+    color: rgb(168, 69, 168);
+}
