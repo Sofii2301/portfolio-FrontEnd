@@ -3,13 +3,13 @@ nav {
     align-self: flex-start;
     align-items: center;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     background-color: rgb(73, 3, 119);
 }
 
 #logo {
-    clip-path: inset(25px 10px 25px 0px);
-    width: 150px;
+    width: 15%;
     margin-right: 10px;
 }
 
@@ -19,9 +19,8 @@ nav {
     align-items: center;
 }
 
-#AP>h3 {
+#AP>p {
     color: white;
-    font-size:larger;
 }
 
 #right {
@@ -42,7 +41,7 @@ nav {
 
 #social>a {
     color: white;
-    font-size:larger ;
+    font-size: 120%;
     margin: 5px;
 }
 
@@ -54,4 +53,5 @@ nav {
 
 #login>a{
     color: rgb(168, 69, 168);
+    font-size: 120%;
 }

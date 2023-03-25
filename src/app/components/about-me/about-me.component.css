@@ -1,0 +1,45 @@
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-top: solid 2px rgb(73, 3, 119);
+    border-bottom: solid 2px rgb(73, 3, 119);
+    color: white;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    text-align: justify;
+}
+
+#title {
+    margin-bottom: 20px;
+}
+
+@media (max-width:575px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #photo {
+        width: 30%;
+    }
+
+    #img {
+        display: flex;
+        justify-content: center;
+    }
+
+    #title {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    #paragraph {
+        text-align: center;
+    }
+}
