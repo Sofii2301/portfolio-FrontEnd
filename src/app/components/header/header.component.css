@@ -48,10 +48,10 @@ nav {
 #login{
     margin: 10px;
     margin-left: 10px;
-    border: solid 2px rgb(168, 69, 168);
+    border: solid 2px rgb(177, 102, 238);
 }
 
 #login>a{
-    color: rgb(168, 69, 168);
+    color: rgb(177, 102, 238);
     font-size: 120%;
 }

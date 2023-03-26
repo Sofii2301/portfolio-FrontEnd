@@ -1,0 +1,21 @@
+.container {
+    padding: 20px;
+    border-bottom: solid 2px rgb(73, 3, 119);
+}
+
+.h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+button{
+    border: solid 2px rgb(177, 102, 238);
+    color: rgb(177, 102, 238);
+}
