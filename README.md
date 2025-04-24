@@ -1,6 +1,49 @@
-# FrontEnd
+# 🌐 Portfolio Front-End - Argentina Programa
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This project is the front-end implementation of my personal portfolio, created for the final stage of **Argentina Programa 3.0**. It is built using **Angular**, and includes sections to present my experience, skills, projects, and contact information.
+
+## 🚀 Tech Stack
+
+- Angular CLI (v15.2.4)
+- TypeScript
+- HTML5
+- CSS3
+
+## 🧠 Key Features
+
+- About Me, Skills, Projects, and Contact sections
+- Fully responsive design
+- Modular component-based architecture
+- Designed to integrate with a RESTful back-end built in Java + Spring Boot
+- Easily expandable for dynamic data or CMS integration
+
+## 📁 Folder Structure
+
+src/ ├── app/ │ ├── components/ │ ├── services/ │ ├── pages/ │ └── app.module.ts ├── assets/ ├── environments/ └── index.html
+
+## ▶️ How to Run Locally
+
+1. **Clone the repository:**
+git clone https://github.com/Sofii2301/portfolio-FrontEnd.git
+cd portfolio-FrontEnd
+
+2. Install dependencies:
+npm install
+
+3. Run the development server:
+ng serve
+
+4. Open in browser:
+http://localhost:4200
+
+The app will reload automatically when you make changes.
+
+## 🧑‍💻 Author  
+
+Made with 💙 by Sofía Álvarez Rodero  
+📧 sofialvarezrodero97@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/sofi-alvarez-rodero)  
+🌐 [Portfolio](https://sofiaalvarezrodero.vercel.app)
 
 ## Development server
 
